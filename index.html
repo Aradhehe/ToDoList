@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="topnav">
+        <a class="active"href="./home.html">Home</a>
+        <a class="active"href="./about.html">About</a>
+     </div>
+<h1>To-do list</h1>
+<h2>Add your wishlist</h2>
+<div class="Bp">
+    <div
+        class="todo-container">
+        <input type="text"id="todotitle"class="input" placeholder="Add Title"required/>
+        <input type="text"id="tododescription"class="input" placeholder="Add Description"required/>
+        <input type="button"value="Add Task"id="btnClick"class="btn"
+        onclick="addMore()"/>
+        <span id="error"></span>
+<ol id="box"></ol>
+    </div>
+    <!-- <div
+        class="container">
+        <ol id="Box"></ol>
+        <input type="text"id="des"class="input"/>
+        <input type="button"value="Add description"id="BtnClick"class="Btn"
+        onclick="addMe()"/>
+        <span id="Error"></span>
+
+    </div>
+    <div class="openn">
+        <form>
+            <label for="TaskName">TaskName:</label><br>
+            <input type="text" id="TaskName" name="TaskName" value=""><br>
+            <label for="DESCRIPTION">Description:</label><br>
+            <ol id="Cont"></ol>
+            <input type="text" id="DESCRIPTION" name="DESCRIPTION"class="Input" value=""><br><br>
+            <input type="submit" value="Submit"id="buttonclick",class="buttonn"onclick="addMe()"/>
+            <span id ="Errorr"></span>
+          </form>
+
+
+
+    </div> -->
+</div>
+<script src="to.js"></script>
+</body>
+</html>
